@@ -11,6 +11,6 @@ permissions:
 
 jobs:
   forward-merge:
-    uses: MyCoRe-Org/github-workflows/.github/workflows/forward-merge.yml@v1
+    uses: MyCoRe-Org/github-workflows/.github/workflows/forward-merge.yml@main
     secrets:
       PR_TOKEN: ${{ secrets.PR_TOKEN }}

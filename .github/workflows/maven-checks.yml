@@ -11,6 +11,6 @@ jobs:
     concurrency:
       group: pr-checks-${{ github.repository }}-${{ github.event.pull_request.number }}
       cancel-in-progress: true
-    uses: MyCoRe-Org/github-workflows/.github/workflows/maven-build.yml@v1
+    uses: MyCoRe-Org/github-workflows/.github/workflows/maven-build.yml@main
     with:
       java-version: '25'

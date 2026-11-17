@@ -18,7 +18,7 @@ permissions:
 
 jobs:
   branch:
-    uses: MyCoRe-Org/github-workflows/.github/workflows/maven-version-branch.yml@v1
+    uses: MyCoRe-Org/github-workflows/.github/workflows/maven-version-branch.yml@main
     with:
       java-version: '25'
       branch: ${{ inputs.branch }}

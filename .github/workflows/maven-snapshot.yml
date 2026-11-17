@@ -16,7 +16,7 @@ jobs:
     concurrency:
       group: snapshot-deploy-${{ github.repository }}-${{ github.ref_name }}
       cancel-in-progress: true
-    uses: MyCoRe-Org/github-workflows/.github/workflows/maven-deploy.yml@v1
+    uses: MyCoRe-Org/github-workflows/.github/workflows/maven-deploy.yml@main
     with:
       java-version: '25'
     secrets:
@@ -28,7 +28,7 @@ jobs:
   # downstream:
   #   needs: deploy
   #   if: github.event_name == 'push'
-  #   uses: MyCoRe-Org/github-workflows/.github/workflows/dispatch-downstream.yml@v1
+  #   uses: MyCoRe-Org/github-workflows/.github/workflows/dispatch-downstream.yml@main
   #   with:
   #     targets: |
   #       MyCoRe-Org/<repository> maven-snapshot.yml
