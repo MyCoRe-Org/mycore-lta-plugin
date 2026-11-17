@@ -1,0 +1,13 @@
+The mcr-lta-plugin JAR contains the following third party libraries, relocated to the package
+org.mycore.lta.shaded:
+
+JSch (com.github.mwiede:jsch), relocated to org.mycore.lta.shaded.com.jcraft.jsch
+https://github.com/mwiede/jsch
+Copyright (c) 2002-2015 Atsuhiko Yamanaka, JCraft, Inc.
+Licensed under a BSD style license, see jsch-LICENSE-BSD.txt. Contains code of JZlib and jBCrypt, see
+jsch-LICENSE-JZlib.txt and jsch-LICENSE-jBCrypt.txt.
+
+Apache Commons CSV (org.apache.commons:commons-csv), relocated to org.mycore.lta.shaded.org.apache.commons.csv
+https://commons.apache.org/proper/commons-csv/
+Copyright The Apache Software Foundation
+Licensed under the Apache License, Version 2.0, see commons-csv-LICENSE-APACHE-2.0.txt and commons-csv-NOTICE.txt

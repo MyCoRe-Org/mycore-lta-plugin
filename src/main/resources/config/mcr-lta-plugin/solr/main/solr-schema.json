@@ -1,0 +1,9 @@
+[
+  {
+    "add-dynamic-field": {
+      "name": "lta.*",
+      "type": "string",
+      "multiValued": true
+    }
+  }
+]
